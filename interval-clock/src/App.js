@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import Clock from './components/clock';
+import IntervalClock from './components/intervalClock';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
   return (
     <div className="App">
       <header className="App-header">
-        <Clock />
+        <IntervalClock />
       </header>
     </div>
   );
