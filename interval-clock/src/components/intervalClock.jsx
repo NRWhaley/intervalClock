@@ -37,7 +37,7 @@ const  IntervalClock = () => {
 
             <div>
                 <h1>{time}</h1>
-                <button onClick={toggle}>Start</button>
+                <button onClick={toggle}>{active ? "Stop": "Start"}</button>
                 <h2>{active.toString()}</h2>
             </div>
         );
